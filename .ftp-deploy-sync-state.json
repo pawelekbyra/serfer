@@ -1,0 +1,59 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1756328804088,
+    "data": [
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "file",
+            "name": "functions.php",
+            "size": 22958,
+            "hash": "96d32fa7d4dc369dbd092e3de71f37736ce23b04e19ead9fbcb69216f4d06785"
+        },
+        {
+            "type": "file",
+            "name": "index.php",
+            "size": 461,
+            "hash": "6c4e5921785ca52b149fb96bb8d0eab38af72308fe0f73b37220a0b4a5602171"
+        },
+        {
+            "type": "file",
+            "name": "style.css",
+            "size": 289,
+            "hash": "e1af497a5ca7d572f0da3e95f07beb1183c5eaee78e16d27b874ee2639f28277"
+        },
+        {
+            "type": "folder",
+            "name": "template-parts"
+        },
+        {
+            "type": "folder",
+            "name": "assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/js"
+        },
+        {
+            "type": "file",
+            "name": "template-parts/app-content.php",
+            "size": 23186,
+            "hash": "e25d59edfa0a4afc12cf962e162a3087844a089096975795573083ec5f42af24"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/main.css",
+            "size": 58069,
+            "hash": "bba232caad570c56328061b29879fd30254d05e7725c4543665e0aee787825ee"
+        },
+        {
+            "type": "file",
+            "name": "assets/js/app.js",
+            "size": 81685,
+            "hash": "1c462cd180e30fdb0274d1a4d6ce3f896914f64adfc8cefbe161b1ee41f3040e"
+        }
+    ]
+}
