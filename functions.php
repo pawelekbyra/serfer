@@ -343,6 +343,21 @@ function tt_login_form_shortcode() {
 }
 add_shortcode( 'tt_login_form', 'tt_login_form_shortcode' );
 
+/**
+ * Adds custom meta tags to the head.
+ */
+function tt_add_custom_meta_tags() {
+	?>
+	<meta name="description" content="Ting Tong — pionowy feed wideo z prefetchingiem i trybem HLS/CDN-ready.">
+	<meta name="theme-color" content="#000000">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; media-src 'self' https: blob:; connect-src 'self' https:; frame-ancestors 'none'; upgrade-insecure-requests">
+	<?php
+}
+add_action( 'wp_head', 'tt_add_custom_meta_tags' );
+
 
 /* ========================================================================
  * JEDYNA ZMIANA — TT Konto (AJAX) — BEZ logowania/wylogowania/polubień
